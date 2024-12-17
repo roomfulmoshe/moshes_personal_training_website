@@ -1,0 +1,122 @@
+#slidebtn1 {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 5px 0px;
+  font-family: var(--headfont);
+  font-size: 13px;
+  font-weight: 700;
+  background-color: var(--themecolor);
+  color: var(--whitetext);
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#slidebtn1::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--themecolor);
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+#slidebtn1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(81, 80, 80, 0.2);
+  transition: all 0.2s;
+  z-index: -1;
+}
+
+#slidebtn1:hover::after {
+  width: 100%;
+}
+
+#slidebtn2 {
+  border: 1px solid var(--whitetext);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 5px 0px;
+  font-family: var(--headfont);
+  font-size: 13px;
+  font-weight: 700;
+  background-color: transparent;
+  color: var(--whitetext);
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#slidebtn2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--themecolor);
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+#slidebtn2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(81, 80, 80, 0.2);
+  transition: all 0.2s;
+  z-index: -1;
+}
+
+#slidebtn2:hover::after {
+  width: 100%;
+}
+
+#signupbtn {
+  background-color: transparent;
+  border: 1px solid rgba(210, 210, 210, 0.4);
+  border-radius: 30px;
+  padding: 17.5px 30px;
+  color: var(--whitetext);
+  font: 700 13px var(--bodyfont);
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#signupbtn::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--themecolor);
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+#signupbtn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(81, 80, 80, 0.2);
+  transition: all 0.2s;
+  z-index: -1;
+}
+
+#signupbtn:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,1558 @@
+@import url('./animation.css');
+
+:root {
+    --bodyfont: "Raleway", sans-serif;
+    --headfont: "PT Serif", serif;
+    --whitetext: white;
+    --themecolor: rgb(243, 99, 71);
+    --headingcolor: rgb(80, 80, 80);
+    --textcolor: rgb(141, 141, 141);
+    --footerbackground: rgb(38, 38, 38);
+    --footpara: rgb(227, 227, 227);
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* nav */
+#logodiv {
+    position: absolute;
+    z-index: 10;
+    background-color: transparent;
+    width: 80%;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(62, 62, 62);
+    border-width: thin;
+}
+
+#logo {
+    width: 90px;
+}
+
+.navicon {
+    color: white;
+    margin: 0px 5px;
+    font-size: 125%;
+}
+
+#navdiv {
+    position: absolute;
+    z-index: 7;
+    padding-top: 80px;
+    width: 100%;
+    display: none;
+    background-color: transparent;
+}
+
+.navitems {
+    list-style-type: none;
+}
+
+#navlist {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px 0px;
+    border-bottom: thin solid rgb(62, 62, 62);
+    border-width: thin;
+}
+
+.dropdown {
+    border: none;
+    margin: 0px 15px;
+    padding: 0px;
+    background-color: transparent;
+    color: var(--whitetext);
+    font-family: var(--headfont);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#home {
+    width: 55px;
+}
+
+#blog {
+    width: 48px;
+}
+
+#portfolio {
+    width: 72px;
+}
+
+#shop {
+    width: 50px;
+}
+
+#variation {
+    width: 75px;
+}
+
+#elements {
+    width: 75px;
+}
+
+.navoption {
+    color: black;
+    font-family: var(--bodyfont);
+}
+
+.navicon1 {
+    color: white;
+    margin: 0px 10px;
+    font-size: 125%;
+}
+
+/* main */
+main {
+    position: relative;
+    z-index: 5;
+    background-color: white;
+}
+
+/* herosection */
+#slide1 {
+    background-image: url('../images/background/Fitness_slide_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    display: flex;
+    align-items: center;
+    padding: 0px 7%;
+}
+
+#slide2 {
+    background-image: url('../images/background/Fitness_slide_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    display: flex;
+    align-items: center;
+    padding: 0px 7%;
+    display: none;
+}
+
+#mainslidediv1 {
+    width: 256px;
+    margin-top: 80px;
+}
+
+#slidediv1 {
+    padding: 0px 8px;
+    border-left: 2.5px solid var(--themecolor);
+}
+
+.slidetext {
+    margin: 0px;
+    color: var(--whitetext);
+    font-family: var(--bodyfont);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.slidehead {
+    margin: 3px 0px;
+    color: var(--whitetext);
+    font-family: var(--bodyfont);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.slidespan {
+    color: var(--themecolor);
+}
+
+#slidepara1 {
+    margin: 0px;
+    margin-bottom: 5px;
+    color: var(--whitetext);
+    font-family: var(--headfont);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#slidebtn2 {
+    border: 1px solid var(--whitetext);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 5px 0px;
+    font-family: var(--headfont);
+    font-size: 13px;
+    font-weight: 700;
+    background-color: transparent;
+    color: var(--whitetext);
+}
+
+#home,
+#blog,
+#portfolio,
+#shop,
+#variation,
+#elements {
+    cursor: pointer;
+}
+
+/* motivation */
+#motivation {
+    padding: 80px 10%;
+}
+
+#motiheading {
+    text-align: center;
+    font: 700 20px var(--headfont);
+    color: var(--textcolor);
+}
+
+#motidivparent {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+#motidiv {
+    width: 15px;
+    border: 3px solid rgb(234, 234, 234);
+    border-radius: 10px;
+}
+
+#motipara {
+    color: var(--textcolor);
+    font: 400 16px var(--bodyfont);
+    line-height: 29px;
+    text-align: center;
+}
+
+#motidiv2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+/* services */
+#services {
+    height: 250px;
+    background-image: url('../images/illustrative/Fitness_img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1600px;
+}
+
+#serviceshead {
+    font: 300 20px var(--headfont);
+    padding-top: 80px;
+    padding-left: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+    color: var(--whitetext);
+}
+
+#servicestext {
+    font: 700 30px var(--headfont);
+    margin: 0px;
+    padding-left: 20px;
+    color: var(--whitetext);
+    width: 210px;
+}
+
+#servicesdiv2 {
+    padding: 20px 5%;
+    margin-top: 100px;
+}
+
+.servicesineer1 {
+    padding: 60px 8px;
+    width: 15rem;
+    margin: 0px auto;
+    box-shadow: 1px 1px 10px var(--textcolor);
+    background-color: white;
+}
+
+.servicesineer1:hover {
+    box-shadow: 5px 5px 15px var(--textcolor);
+    transition-duration: 500ms;
+}
+
+.servicesineer2 {
+    padding: 60px 8px;
+    width: 15rem;
+    margin: 30px auto;
+    box-shadow: 5px 5px 15px var(--textcolor);
+    background-color: white;
+}
+
+.servicesicondiv {
+    display: flex;
+    justify-content: center;
+}
+
+.servicesicon {
+    font-size: 36px;
+    color: rgb(143, 140, 139);
+    margin-top: 10px;
+}
+
+.servicesicon:hover {
+    color: var(--themecolor);
+    transition-duration: 500ms;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.serviceshead {
+    text-align: center;
+    font: 700 16px var(--headfont);
+    color: var(--headingcolor);
+    margin-top: 40px;
+}
+
+.servicespara {
+    text-align: center;
+    font: 400 14px var(--bodyfont);
+    color: var(--textcolor);
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.servicestext {
+    text-align: center;
+}
+
+/* shedule */
+#schedulediv1 {
+    background-image: url('../images/illustrative/Fitness_img1-1.jpg');
+    height: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scheduleineer1 {
+    border: 1px solid rgb(49, 49, 49);
+    padding: 25px;
+}
+
+#scheduletext1 {
+    color: var(--whitetext);
+    font: 400 20px var(--bodyfont);
+}
+
+#schedulespan {
+    font: 700 40px var(--headfont);
+    color: var(--themecolor);
+}
+
+#schedulediv2 {
+    padding: 40px 45px;
+    box-shadow: 1px 1px 10px var(--textcolor);
+}
+
+.scheduleineer3 {
+    font: 400 16px var(--bodyfont);
+    color: var(--textcolor);
+}
+
+.schedulehead {
+    border-left: 3px solid var(--themecolor);
+    padding-left: 10px;
+    font: 700 16px var(--headfont);
+    color: var(--headingcolor);
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.scheduleineer4 {
+    margin-top: 40px;
+}
+
+.schedulebtn {
+    border: 1px solid var(--textcolor);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--headingcolor);
+    font: 700 13px var(--bodyfont);
+}
+
+.schedulebtn:hover {
+    border: none;
+    background-color: var(--themecolor);
+    color: var(--whitetext);
+    transition-duration: 0.4s;
+}
+
+.scheduleparent {
+    padding: 40px 0px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+/* numbers */
+#numbers {
+    padding: 20px 10%;
+}
+
+.ineernumberdiv {
+    margin: 60px 0px;
+}
+
+.number {
+    text-align: center;
+    font: 700 48px var(--bodyfont);
+    color: var(--themecolor);
+    margin-bottom: 15px;
+}
+
+.numberschild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 700 16px var(--headfont);
+}
+
+.numbersicon {
+    color: var(--textcolor);
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.numbersheading {
+    color: var(--headingcolor);
+    font: 700 16px var(--headfont);
+}
+
+/* abouttrainer */
+#abouttrainerdiv1 {
+    padding: 0px 15%;
+}
+
+#abouttrainerhead {
+    font: 700 32px var(--bodyfont);
+    color: var(--headingcolor);
+    margin-bottom: 0px;
+}
+
+#abouttrainerspan {
+    font: 400 24px var(--bodyfont);
+    color: var(--textcolor);
+    line-height: 20px;
+}
+
+#abouttrainerboederdiv {
+    border: 3px solid rgb(234, 234, 234);
+    width: 15px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+#abouttrainerpara1 {
+    font: 400 14px var(--bodyfont);
+    color: var(--textcolor);
+    line-height: 25px;
+    text-align: justify;
+}
+
+#abouttrainerpara2 {
+    font: 400 14px var(--bodyfont);
+    font-style: oblique;
+    color: var(--textcolor);
+    line-height: 25px;
+    text-align: justify;
+}
+
+#abouttrainerdiv2 {
+    background-image: url('../images/illustrative/Fitness_img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 15px;
+    margin-top: 50px
+}
+
+#abouttrainerineerdiv2 {
+    padding: 35px;
+    border: 1px solid rgb(28, 29, 31);
+}
+
+#abouttrainerdiv2para {
+    font: 400 30px var(--bodyfont);
+    color: var(--whitetext);
+    margin: 0px;
+}
+
+#abouttrainerspan1 {
+    font: 700 50px var(--headfont);
+    color: var(--themecolor);
+}
+
+/* clients */
+#clients {
+    padding: 60px 12%;
+}
+
+#clientsmaindiv1 {
+    text-align: center;
+    font: 700 20px var(--headfont);
+    color: var(--headingcolor);
+    margin: 0px;
+}
+
+#clientsmaindiv2 {
+    display: flex;
+}
+
+#clientshide1,
+#clientshide2,
+#clientshide3 {
+    display: none;
+}
+
+#clientsdivparent {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#clientsdiv {
+    border: 3px solid rgb(234, 234, 234);
+    width: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.clientsinnerdiv {
+    display: flex;
+    align-items: center;
+    font: 400 14px var(--bodyfont);
+}
+
+.clientschild {
+    padding-left: 20px;
+    color: var(--textcolor);
+    line-height: 20px;
+    border-left: 1px solid rgb(224, 224, 224);
+}
+
+.clientsicon {
+    font-size: 30px;
+    color: var(--textcolor);
+    margin-right: 20px;
+}
+
+.clientschildhead {
+    font: 700 16px var(--headfont);
+    color: var(--headingcolor);
+    margin-bottom: 0px;
+}
+
+.clientschildtext {
+    font: 700 13px var(--bodyfont);
+    color: var(--themecolor);
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+/* findme */
+#findmediv1 {
+    background-image: url('../images/background/map.jpg');
+    padding: 160px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#findmeimg {
+    margin-right: 60px;
+}
+
+#findmediv2 {
+    padding: 80px 12.5%;
+}
+
+#findmehead {
+    font: 700 20px var(--headfont);
+    color: var(--headingcolor);
+    margin: 0px;
+}
+
+#findmeborder {
+    width: 15px;
+    border: 3px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+#findmetext {
+    font: 400 16px var(--bodyfont);
+    line-height: 20px;
+    color: var(--textcolor);
+}
+
+.findmeineer {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+
+.findmeicon {
+    font-size: 30px;
+    color: var(--textcolor);
+    padding-top: 5px;
+}
+
+.findmeicon:hover {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    color: var(--themecolor);
+    transition-duration: 0.25s;
+}
+
+.findmechild {
+    padding: 2.5px 0px;
+    padding-left: 20px;
+}
+
+.findmechildhead {
+    margin: 0px;
+    font: 700 16px var(--headfont);
+    color: var(--headingcolor);
+}
+
+.findmechildtext {
+    margin: 0px;
+    font: 400 14px var(--bodyfont);
+    color: var(--textcolor);
+    line-height: 25px;
+}
+
+/* signup */
+#signup {
+    background-image: url('../images/illustrative/Fitness_img4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#signupdiv {
+    padding: 0px 9%;
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+#signuphead1 {
+    font: 400 21px var(--headfont);
+    text-align: center;
+    color: var(--whitetext);
+    margin: 0px;
+}
+
+#signuphead2 {
+    font: 700 30px var(--headfont);
+    text-align: center;
+    color: var(--whitetext);
+    margin: 0px;
+}
+
+#signupineerdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* footer */
+#footer {
+    padding: 20% 20px;
+    background-color: var(--footerbackground);
+}
+
+.footerhead {
+    margin-top: 40px;
+    font: 700 20px var(--headfont);
+    color: var(--whitetext);
+}
+
+.footerpara {
+    font: 400 14px var(--bodyfont);
+    color: var(--footpara);
+    line-height: 25px;
+}
+
+.footicondiv {
+    display: flex;
+    align-items: center;
+}
+
+.footericon {
+    font-size: 18px;
+    color: var(--footpara);
+    padding-right: 20px;
+}
+
+.footerinfo {
+    font: 400 14px var(--bodyfont);
+    color: var(--footpara);
+    display: inline;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.footdiv2 {
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(167, 167, 167, 0.2);
+}
+
+.footimg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+#footimg1 {
+    background-image: url('../images/illustrative/Blog_1-150x150.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footimg2 {
+    background-image: url('../images/illustrative/Blog_2-150x150.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footimg3 {
+    background-image: url('../images/illustrative/Blog_3-150x150.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footlinkdiv {
+    margin-left: 20px;
+}
+
+.footlink1 {
+    font: 400 13px var(--headfont);
+    text-decoration: none;
+    color: var(--footpara);
+}
+
+.footlink1:hover {
+    color: rgb(72, 72, 72);
+    transition-duration: 500ms;
+}
+
+.footlink2 {
+    font: 400 13px var(--headfont);
+    text-decoration: none;
+    color: var(--footpara);
+}
+
+.footlink2:hover {
+    color: rgb(72, 72, 72);
+    transition-duration: 500ms;
+}
+
+.footheadlink {
+    font: 700 16px var(--headfont);
+    text-decoration: none;
+    color: rgb(228, 224, 224);
+}
+
+.footheadlink:hover {
+    color: var(--themecolor);
+    transition-duration: 500ms;
+}
+
+.footdiv2head {
+    margin: 5px 0px;
+}
+
+#project1 {
+    background-image: url('../images/illustrative/Portfolio_2_2-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project2 {
+    background-image: url('../images/illustrative/Portfolio_3-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project3 {
+    background-image: url('../images/illustrative/Portfolio_6_4-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project4 {
+    background-image: url('../images/illustrative/Paperback-Book-Mockup-vol-2-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project5 {
+    background-image: url('../images/illustrative/Portfolio_5_1-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project6 {
+    background-image: url('../images/illustrative/Portfolio_6-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project7 {
+    background-image: url('../images/illustrative/photo-1455612810508-8faae6db6455-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+#project8 {
+    background-image: url('../images/illustrative/Portfolio_1_1-150x150.jpg');
+    height: 85px;
+    width: 85px;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin: 2.5px;
+}
+
+/* creatorinfo */
+#creatorinfo {
+    background-color: rgb(34, 34, 34);
+}
+
+#creatorinfoimg {
+    margin-left: 32.5%;
+    margin-top: 35px;
+}
+
+#copyright {
+    font: 400 15px var(--bodyfont);
+    color: white;
+    text-align: center;
+}
+
+#creatorinfotext {
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font: 400 15px var(--bodyfont);
+    color: white;
+    text-align: center;
+}
+
+#creatorinfoanchor {
+    color: var(--whitetext);
+    font: 700 15px var(--bodyfont);
+    text-decoration: none;
+}
+
+#creatorinfoanchor:hover {
+    color: var(--themecolor);
+    transition-duration: .4s;
+}
+
+
+/* media query for 768px */
+@media only screen and (min-width: 768px) {
+
+    /* herosection */
+    #mainslidediv1 {
+        width: 460px;
+    }
+
+    .slidetext {
+        font-size: 19px;
+    }
+
+    .slidehead {
+        font-size: 45px;
+    }
+
+    #slidepara1 {
+        font-size: 11px;
+        margin: 10px 0px;
+    }
+
+    #slidebtn1 {
+        margin-right: 10px;
+        padding: 20px 30px;
+    }
+
+    #slidebtn2 {
+        padding: 20px 30px;
+    }
+
+    /* services */
+    #services {
+        height: 200px;
+        margin-bottom: 1400px;
+    }
+
+    #servicesdiv2 {
+        padding: 50px 15%;
+        margin-top: 90px;
+    }
+
+    #serviceshead {
+        padding-top: 60px;
+        padding-left: 80px;
+    }
+
+    #servicestext {
+        width: 60%;
+        padding-left: 80px;
+    }
+
+    .servicesineer1,
+    .servicesineer2 {
+        width: 24rem;
+        padding: 50px 70px;
+    }
+
+    /* schedule */
+    .scheduleparent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* abouttrainer */
+    #abouttrainerdiv1 {
+        padding: 0px 12%;
+        box-shadow: 1px 1px 10px gray;
+    }
+
+    #abouttrainerdiv2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #abouttrainerspan1 {
+        font-size: 60px;
+    }
+
+    #abouttrainerdiv2 {
+        padding: 100px 20px;
+    }
+
+    /* clients */
+    #clients {
+        padding: 60px 17.5%;
+    }
+
+    /* findme */
+    #findmediv2 {
+        padding: 80px 20%;
+    }
+
+    .findmeineer {
+        padding-left: 100px;
+    }
+
+    /* footer */
+    #footer {
+        padding: 8% 100px;
+    }
+
+    #project1 {
+        margin: 10px;
+    }
+
+    #project2 {
+        margin: 10px;
+    }
+
+    #project3 {
+        margin: 10px;
+    }
+
+    #project4 {
+        margin: 10px;
+    }
+
+    #project5 {
+        margin: 10px;
+    }
+
+    #project6 {
+        margin: 10px;
+    }
+
+    #project7 {
+        margin: 10px;
+    }
+
+    #project8 {
+        margin: 10px;
+    }
+
+    /* creatorinfo */
+    #creator {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #creatorinfoimg {
+        /* margin-left: 43%; */
+        margin: 0px;
+        margin-right: 40px;
+    }
+}
+
+
+/* media query for 1024px */
+@media only screen and (min-width: 1024px) {
+
+    /* body */
+    body {
+        padding-bottom: 610px
+    }
+
+
+    /* herosection */
+    #slide1 {
+        padding: 0px 12%;
+    }
+
+    #mainslidediv1 {
+        width: 511px;
+    }
+
+    .slidetext {
+        font-size: 21px;
+    }
+
+    .slidehead {
+        font-size: 50px;
+    }
+
+    #slidepara1 {
+        font-size: 13px;
+    }
+
+    #slidebtn1 {
+        margin-right: 10px;
+    }
+
+    /* motivation */
+    #motivation {
+        padding: 80px 20%;
+    }
+
+    /* services */
+    #services {
+        height: 400px;
+        margin-bottom: 650px;
+    }
+
+    #servicesdiv2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 60px;
+        margin-top: 275px;
+    }
+
+    #serviceshead {
+        padding-top: 90px;
+    }
+
+    .servicesineer1,
+    .servicesineer2 {
+        margin: 0px;
+        padding: 50px 30px;
+        width: 13rem;
+    }
+
+    /* schedule */
+    #schedule {
+        display: flex;
+    }
+
+    #scheduleineer1 {
+        margin: 0px 100px;
+    }
+
+    #schedulediv1 {
+        width: 55%;
+        padding: 125px 0px;
+    }
+
+    #schedulediv2 {
+        width: 45%;
+        padding: 40px 55px;
+    }
+
+    /* numbers */
+    #numbers {
+        display: flex;
+        padding: 75px 10%;
+    }
+
+    .numbers1 {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    /* abouttrainer */
+    #abouttrainer {
+        display: flex;
+        align-items: center;
+    }
+
+    #abouttrainerhead {
+        margin: 0px;
+    }
+
+    #abouttrainerdiv1 {
+        width: 45%;
+        padding: 235px 5%;
+    }
+
+    #abouttrainerdiv2 {
+        width: 50%;
+        margin: 0px;
+    }
+
+    #abouttrainerineerdiv2 {
+        margin: 260px 0px;
+    }
+
+    /* clients */
+    #clients {
+        padding: 100px 10%;
+    }
+
+    #clientshide1,
+    #clientshide2 {
+        display: flex;
+    }
+
+    .clientsinnerdiv {
+        width: 31%;
+    }
+
+    #clientsmaindiv2 {
+        justify-content: space-between;
+    }
+
+    /* findme */
+    #findme {
+        display: flex;
+    }
+
+    #findmeimg {
+        width: 15%;
+        height: 50%;
+        margin-top: 40px
+    }
+
+    #findmediv1 {
+        width: 50%;
+    }
+
+    #findmediv2 {
+        width: 40%;
+        padding: 80px 5%;
+    }
+
+    /* signup */
+    #signupdiv {
+        padding: 10% 20%;
+    }
+
+    /* footer */
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 7.5% 40px;
+        padding-bottom: 20px;
+    }
+
+    #mainfooter {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .footdiv {
+        width: 22%;
+    }
+
+    #recentposts {
+        width: 29%;
+    }
+
+    #project1 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project2 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project3 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project4 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project5 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project6 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project7 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    #project8 {
+        height: 55px;
+        width: 55px;
+        margin: 5px;
+    }
+
+    /* creatorinfo */
+
+    #creatorinfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    #creatorinfotext {
+        padding: 0px;
+    }
+}
+
+
+/* media query for 1440px */
+@media only screen and (min-width: 1440px) {
+    #logodiv {
+        justify-content: center;
+    }
+
+    #icondiv {
+        display: none;
+    }
+
+    #navdiv {
+        display: block;
+    }
+
+    /* herosection */
+    #mainslidediv1 {
+        width: 645px;
+    }
+
+    #slide1 {
+        height: 760px;
+        padding: 0px 20%;
+    }
+
+    #slide2 {
+        height: 760px;
+    }
+
+    #slidediv1 {
+        padding: 0px 20px;
+        border-width: 3.5px;
+    }
+
+    .slidetext {
+        font-size: 26px;
+    }
+
+    .slidehead {
+        font-size: 63px;
+    }
+
+    #slidepara1 {
+        font-size: 16px;
+    }
+
+    /* services */
+    #services {
+        margin-bottom: 450px;
+    }
+
+    .servicesineer1,
+    .servicesineer2 {
+        width: 20rem;
+    }
+
+    #servicesdiv2 {
+        padding-top: 0px;
+        margin-top: 75px;
+    }
+
+    #serviceshead {
+        font-size: 30px;
+        padding-left: 110px;
+    }
+
+    #servicestext {
+        font-size: 48px;
+        padding-left: 110px;
+    }
+
+    /* schedule */
+    #schedulediv2 {
+        padding: 40px 70px;
+    }
+
+    .scheduleparent {
+        padding: 40px 20px;
+    }
+
+    /* numbers */
+    #numbers {
+        padding: 75px 15%;
+    }
+
+    /* abouttrainer */
+    #abouttrainerdiv2 {
+        padding: 45px 5%;
+    }
+
+    /* clients */
+    #clientsmaindiv1 {
+        font: 700 30px var(--headfont);
+    }
+
+    /* findme */
+    #findmeimg {
+        width: 15%;
+        height: 40%;
+        margin-right: 60px;
+        margin-top: 60px;
+    }
+
+    #findmehead {
+        font-size: 30px
+    }
+
+    #findmediv1 {
+        width: 65%;
+    }
+
+    #findmediv2 {
+        padding: 150px 10%;
+    }
+
+    /* signup */
+    #signupdiv {
+        padding: 7.5% 25%;
+    }
+
+    #signuphead1 {
+        font: 400 24px var(--headfont);
+    }
+
+    #signuphead2 {
+        font: 700 48px var(--headfont);
+    }
+
+    /* footer */
+    #footer {
+        padding: 60px 80px;
+    }
+
+    #footer {
+        padding-bottom: 20px;
+    }
+
+    .footdiv {
+        width: 23%;
+    }
+
+    #recentposts {
+        width: 23%;
+    }
+
+    #project1 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project2 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project3 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project4 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project5 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project6 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project7 {
+        height: 80px;
+        width: 80px;
+    }
+
+    #project8 {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+
+    /* herosection */
+    #slide1 {
+        height: 1352px;
+    }
+
+    /* motivation */
+    #motivation {
+        padding: 80px 30%;
+    }
+
+    /* services2 */
+    #services {
+        margin-bottom: 450px;
+    }
+
+    #servicesdiv2 {
+        padding: 0px 650px;
+        padding-bottom: 60px;
+    }
+
+    #serviceshead {
+        /* font-size: 30px; */
+        padding-left: 680px;
+    }
+
+    #servicestext {
+        /* font-size: 48px; */
+        padding-left: 680px;
+    }
+
+    /* schedule */
+    #schedulediv2 {
+        padding: 40px 70px;
+    }
+
+    .scheduleparent {
+        padding: 40px 120px;
+    }
+
+    /* numbers */
+    #numbers {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 80px 20%;
+    }
+
+    /* abouttrainer */
+    #abouttrainerdiv2 {
+        padding: 5px 5%;
+    }
+
+    /* clients */
+    #clients {
+        padding: 100px 25%;
+    }
+
+    /* signup */
+    #signupdiv {
+        padding: 4% 35%;
+    }
+
+    /* footer */
+    #footer {
+        padding: 5% 150px;
+        padding-bottom: 20px;
+    }
+
+    .footdiv {
+        width: 20%;
+    }
+
+    #recentposts {
+        width: 20%;
+    }
+}
