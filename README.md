@@ -20,6 +20,7 @@ Check out the live demo of the project <a href="https://ompimpale.github.io/Jave
 To get started with project, follow the steps:
 
 1. <strong>Clone the repository</strong>:
+   <br/>
    <code>git clone https://github.com/OmPimpale/Javelin---Home-Fitness-Web-Template.git</code>
    <br/>
    <code>cd Javelin---Home-Fitness-Web-Template</code>
