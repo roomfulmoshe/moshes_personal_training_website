@@ -21,6 +21,7 @@ To get started with project, follow the steps:
 
 1. <strong>Clone the repository</strong>:
    <code>git clone https://github.com/OmPimpale/Javelin---Home-Fitness-Web-Template.git</code>
+   <br/>
    <code>cd Javelin---Home-Fitness-Web-Template</code>
 
 2. Open <strong>index.html</strong> file and "Go Live".
