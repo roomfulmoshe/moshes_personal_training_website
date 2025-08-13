@@ -117,7 +117,7 @@ main {
 
 /* herosection */
 #slide1 {
-    background-image: url('../images/background/Fitness_slide_1.jpg');
+    background-image: url('../images/background/beach.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +238,7 @@ main {
 /* services */
 #services {
     height: 250px;
-    background-image: url('../images/illustrative/Fitness_img1.jpg');
+    background-image: url('../images/background/frontdouble.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +327,7 @@ main {
 
 /* shedule */
 #schedulediv1 {
-    background-image: url('../images/illustrative/Fitness_img1-1.jpg');
+    background-image: url('../images/background/gympic.png');
     height: 390px;
     background-position: center;
     background-repeat: no-repeat;
@@ -471,7 +471,7 @@ main {
 }
 
 #abouttrainerdiv2 {
-    background-image: url('../images/illustrative/Fitness_img3.jpg');
+    background-image: url('../images/illustrative/backpic.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
